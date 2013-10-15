@@ -5,11 +5,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.curso.mb.LoginController">
   <children>
-    <TextField fx:id="logina" layoutX="38.0" layoutY="178.0" prefWidth="200.0" promptText="Usuario" />
+    <TextField fx:id="logina" layoutX="38.0" layoutY="178.0" prefWidth="200.0" promptText="Usuário" />
     <PasswordField fx:id="senhaa" layoutX="322.0" layoutY="178.0" prefWidth="200.0" promptText="Senha" />
-    <Button fx:id="entrar" layoutX="471.0" layoutY="227.0" mnemonicParsing="false" text="Entrar" />
+    <Button fx:id="entrar" layoutX="459.0" layoutY="227.0" mnemonicParsing="false" text="Entrar" />
+    <Text layoutX="184.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login para Cadastro de Alunos" />
+    <Text layoutX="38.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário" />
+    <Text layoutX="322.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" />
+    <Text layoutX="35.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O cadastro somente pode ser feito com um usuário permitido." />
   </children>
 </AnchorPane>

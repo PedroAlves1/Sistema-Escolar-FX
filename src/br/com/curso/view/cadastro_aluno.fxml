@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.curso.view.AlunoController" fx:controller="br.com.curso.view.AlunoController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.curso.view.AlunoController" fx:controller="br.com.curso.mb.AlunoController">
   <children>
     <TextField fx:id="nomea" layoutX="17.0" layoutY="30.0" prefWidth="200.0" promptText="Nome" />
     <TextField fx:id="dataa" layoutX="17.0" layoutY="64.0" prefWidth="200.0" promptText="Data de Nascimento" />

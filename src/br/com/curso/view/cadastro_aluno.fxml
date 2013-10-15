@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.curso.view.AlunoController" fx:controller="br.com.curso.view.AlunoController">
+  <children>
+    <TextField fx:id="nomea" layoutX="17.0" layoutY="30.0" prefWidth="200.0" promptText="Nome" />
+    <TextField fx:id="dataa" layoutX="17.0" layoutY="64.0" prefWidth="200.0" promptText="Data de Nascimento" />
+    <TextField fx:id="ra" layoutX="17.0" layoutY="98.0" prefWidth="200.0" promptText="R.A" />
+    <TextField fx:id="sexoa" layoutX="17.0" layoutY="135.0" prefWidth="200.0" promptText="Sexo" />
+    <TextField fx:id="anoa" layoutX="17.0" layoutY="172.0" prefWidth="200.0" promptText="Ano Letivo" />
+    <TextField fx:id="numero" layoutX="17.0" layoutY="211.0" prefWidth="200.0" promptText="Número" />
+    <TextField fx:id="ruaa" layoutX="367.0" layoutY="15.0" prefWidth="200.0" promptText="Rua" />
+    <TextField id="bairro" fx:id="bairroa" layoutX="367.0" layoutY="49.0" prefWidth="200.0" promptText="Bairro" />
+    <TextField fx:id="cidadea" layoutX="367.0" layoutY="83.0" prefWidth="200.0" promptText="Cidade" />
+    <TextField fx:id="estadoa" layoutX="367.0" layoutY="120.0" prefWidth="200.0" promptText="Estado" />
+    <TextField fx:id="cepa" layoutX="367.0" layoutY="157.0" prefWidth="200.0" promptText="CEP" />
+    <TextField fx:id="numerocasaa" layoutX="367.0" layoutY="196.0" prefWidth="200.0" promptText="Número" />
+    <TextField fx:id="paisa" layoutX="367.0" layoutY="238.0" prefWidth="200.0" promptText="Pais" />
+    <TextArea fx:id="complementoa" layoutX="367.0" layoutY="277.0" prefHeight="96.0" prefWidth="200.0" promptText="Complemento" wrapText="true" />
+  </children>
+</AnchorPane>

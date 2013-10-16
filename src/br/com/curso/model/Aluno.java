@@ -19,6 +19,7 @@ public class Aluno {
     private Endereco endereco;
     private Contato contato;
     private Classe classe;
+    public boolean getNome;
     
     public Aluno(){
     disciplinas = new ArrayList<>();

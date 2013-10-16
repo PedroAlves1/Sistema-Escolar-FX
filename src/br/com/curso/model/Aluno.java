@@ -13,8 +13,8 @@ public class Aluno {
     private Calendar dataNascimento;
     private String ra;
     private String sexo;
-    private int anoLetivo;
-    private int numero;
+    private String anoLetivo;
+    private String numero;
     private List <Disciplina> disciplinas;
     private Endereco endereco;
     private Contato contato;
@@ -71,19 +71,19 @@ public class Aluno {
         this.sexo = sexo;
     }
 
-    public int getAnoLetivo() {
+    public String getAnoLetivo() {
         return anoLetivo;
     }
 
-    public void setAnoLetivo(int anoLetivo) {
+    public void setAnoLetivo(String anoLetivo) {
         this.anoLetivo = anoLetivo;
     }
 
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 

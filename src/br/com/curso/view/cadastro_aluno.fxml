@@ -11,12 +11,12 @@
     <Button fx:id="cadastrar" defaultButton="true" layoutX="151.0" layoutY="305.0" mnemonicParsing="false" text="Cadastrar" onAction="#cadastro"  />
     <TextField fx:id="nomea" layoutX="17.0" layoutY="30.0" prefWidth="200.0" promptText="Nome" />
     <TextField fx:id="dataa" layoutX="17.0" layoutY="64.0" prefWidth="200.0" promptText="Data de Nascimento" />
-    <TextField fx:id="ra" layoutX="17.0" layoutY="98.0" prefWidth="200.0" promptText="R.A" />
+    <TextField fx:id="raa" layoutX="17.0" layoutY="98.0" prefWidth="200.0" promptText="R.A" />
     <TextField fx:id="sexoa" layoutX="17.0" layoutY="135.0" prefWidth="200.0" promptText="Sexo" />
     <TextField fx:id="anoa" layoutX="17.0" layoutY="172.0" prefWidth="200.0" promptText="Ano Letivo" />
-    <TextField fx:id="numero" layoutX="17.0" layoutY="211.0" prefWidth="200.0" promptText="Número" />
+    <TextField fx:id="numeroa" layoutX="17.0" layoutY="211.0" prefWidth="200.0" promptText="Número" />
     <TextField fx:id="ruaa" layoutX="367.0" layoutY="15.0" prefWidth="200.0" promptText="Rua" />
-    <TextField id="bairro" fx:id="bairroa" layoutX="367.0" layoutY="49.0" prefWidth="200.0" promptText="Bairro" />
+    <TextField id="bairroa" fx:id="bairroa" layoutX="367.0" layoutY="49.0" prefWidth="200.0" promptText="Bairro" />
     <TextField fx:id="cidadea" layoutX="367.0" layoutY="83.0" prefWidth="200.0" promptText="Cidade" />
     <TextField fx:id="estadoa" layoutX="367.0" layoutY="120.0" prefWidth="200.0" promptText="Estado" />
     <TextField fx:id="cepa" layoutX="367.0" layoutY="157.0" prefWidth="200.0" promptText="CEP" />

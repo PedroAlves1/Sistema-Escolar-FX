@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="570.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TableView layoutX="42.0" layoutY="25.0" prefHeight="320.0" prefWidth="488.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="237.0" text="Professor(a)" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="249.0" text="Disciplina(s)" fx:id="tabelaprofessora" />
+      </columns>
+    </TableView>
+    <Button fx:id="cadastroprofessora" layoutX="464.0" layoutY="355.0" mnemonicParsing="false" text="Cadastros" />
+  </children>
+</AnchorPane>

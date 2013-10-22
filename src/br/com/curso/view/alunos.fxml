@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="839.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TableView layoutX="7.0" layoutY="14.0" prefHeight="372.0" prefWidth="818.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="91.0" text="Disciplinas" />
+        <TableColumn prefWidth="75.0" text="Média 1 Bim." />
+        <TableColumn prefWidth="75.0" text="Faltas 1 Bim." />
+        <TableColumn prefWidth="75.0" text="Média 2 Bim." />
+        <TableColumn prefWidth="75.0" text="Faltas 2 Bim." />
+        <TableColumn prefWidth="75.0" text="Média 3 Bim." />
+        <TableColumn prefWidth="75.0" text="Faltas 3 Bim." />
+        <TableColumn prefWidth="75.0" text="Média 4 Bim." />
+        <TableColumn prefWidth="75.0" text="Faltas 4 Bim." />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="64.0" text="Média Final" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="62.0" text="Faltas" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>
